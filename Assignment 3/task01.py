@@ -6,4 +6,4 @@ if length<legal_zander_length:
     print(f"{short_by:.2f} cm under the legal length")
 
 else:
-    print("you can take!! ")
+    print("you can take it!! ")
