@@ -1,6 +1,6 @@
-talents = int(input("Enter number of talents (leiviskä): "))
-pounds = int(input("Enter number of pounds (naula): "))
-lots = int(input("Enter number of lots (luoti): "))
+talents = float(input("Enter number of talents (leiviskä): "))
+pounds = float(input("Enter number of pounds (naula): "))
+lots = float(input("Enter number of lots (luoti): "))
 LOTS_IN_POUND = 32
 POUNDS_IN_TALENT = 20
 GRAMS_IN_LOT = 13.3
