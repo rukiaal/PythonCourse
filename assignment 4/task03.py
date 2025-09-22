@@ -1,6 +1,6 @@
 numbers = []
 user_input = input("Enter a number:  ")
-while user_input != " ":
+while user_input != "":
     numbers.append(user_input)
     user_input = input("Enter a number: ")
 
