@@ -2,7 +2,7 @@ numbers = []
 
 user_input = input("Enter your number (press Enter to quit): ")
 while user_input != "":
-    numbers.append(user_input)
+    numbers.append(int(user_input))
     user_input = input("Enter your number (press Enter to quit): ")
 
 if numbers:
