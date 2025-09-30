@@ -9,6 +9,6 @@ while name != "":
         names.add(name)
     name = input("Enter a name (press Enter to quit): ")
 
-print("\nUnique names entered:")
+print("\nUnique names entered: ")
 for n in names:
     print(n)

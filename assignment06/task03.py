@@ -11,7 +11,7 @@ while True:
         name = input("Enter airport name: ")
         airports[code] = name
     elif choice == "2":
-        code = input("Enter ICAO code: ")
+        code = input("Enter ICAO code:  ")
         if code in airports:
             print("Airport name:", airports[code])
         else:

@@ -1,6 +1,6 @@
 seasons = ("Winter", "Spring", "Summer", "Autumn")
 
-month = int(input("Enter month number (1-12): "))
+month = int(input("Enter month number (1-12):  "))
 
 if month in (12, 1, 2):
     print("Season:", seasons[0])
