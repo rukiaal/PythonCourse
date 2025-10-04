@@ -1,6 +1,6 @@
 names = set()
 
-name = input("Enter a name (press Enter to quit): ")
+name = input("Enter a name or (press Enter to quit): ")
 while name != "":
     if name in names:
         print("Existing name")
@@ -9,6 +9,6 @@ while name != "":
         names.add(name)
     name = input("Enter a name (press Enter to quit): ")
 
-print("\nUnique names entered: ")
+print("Unique names entered: ")
 for n in names:
     print(n)
