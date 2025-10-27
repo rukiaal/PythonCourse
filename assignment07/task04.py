@@ -1,12 +1,15 @@
 def remove_odd(numbers):
-    new_list = []
-    for num in numbers:
-        if num % 2 == 0:
-            new_list.append(num)
-    return new_list
+    even_numbers = []
+    for n in numbers:
+        if n % 2 == 0:
+            even_numbers.append(n)
+    return even_numbers
+numbers = []
+num = input("Enter a number (press Enter to stop): ")
 
-nums = [1, 2, 3, 4, 5, 6]
-filtered = remove_odd(nums)
-
-print("Original list:", nums)
-print("Even numbers only:", filtered)
+while num != "":
+    numbers.append(int(num))
+    num = input("Enter a number (press Enter to stop): ")
+filtered = remove_odd(numbers)
+print("Original list:", numbers)
+print("List without odd numbers:", filtered)

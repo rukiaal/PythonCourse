@@ -1,9 +1,14 @@
-
 def sum_list(numbers):
     total = 0
-    for num in numbers:
-        total += num
+    for n in numbers:
+        total += n
     return total
 
-my_numbers = [1, 2, 3, 4, 5]
-print("The sum is:", sum_list(my_numbers))
+numbers = []
+num = int(input("Enter a number (or press Enter to stop): "))
+
+while num != "":
+    numbers.append(int(num))
+    num = input("Enter a number (or press Enter to stop): ")
+
+print("The sum of the numbers is:", sum_list(numbers))
